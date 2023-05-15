@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    background-color: #1e1e1e;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
+    margin: 0;
+    padding: 0;
+}
+
+.content-section {
+    width: 360px;
+    margin: auto;
+    box-sizing: border-box;
+    padding-inline: 20px;
+}
+
+.content-section_theme_dark {
+    background-color: #131313;
+}
+
+.content-section_theme_bright {
+    background-color: #FEE42A;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: 24px 20px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    font-size: 16px;
+    color: #f5f5f5;
+}
+
+.header__logo{
+    width: 78px;
+}
+
+.header__menu-item_active {
+    color: #f5f5f5;
+    text-decoration: none;
+}
+
+.header__menu-item {
+    color: #f5f5f5;
+}
+
+.cover__title {
+    font-family: 'EB Garamond', serif;
+    font-size: 72px;
+    line-height: 72px;
+    font-weight: 400;
+    color: white;
+}
+
+span {
+    display: flex;
+}
+
+.text-center {
+    justify-content: center;
+}
+
+.text-right {
+    justify-content: end;
+}
+.cover {
+    padding: 8px 20px 16px;
+    background-image: url(/images/cover.svg);
+    background-size: 340px 221px;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.intro {
+    padding: 30px 20px 38px;
+
+}
+
+.intro__heading{
+
+}
+
+.intro__title {
+
+}
+
+.intro__date {
+
+}
+
+.intro__main-text{
+
+}
+
+.reasons {
+    padding: 40px 20px;
+
+}
+
+.how-to {
+    padding: 40px 20px 60px;
+}
+
+.footer {
+
+}
