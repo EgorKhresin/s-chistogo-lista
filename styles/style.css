@@ -95,6 +95,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 .intro__title {
     font-size: 16px;
     line-height: 120%;
+    font-weight: 400;
     color:#ccc;
 }
 
@@ -154,5 +155,5 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 }
 
 .footer {
-
+    
 }
