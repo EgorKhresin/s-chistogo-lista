@@ -1,265 +1,272 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-    background-color: #1e1e1e;
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    margin: 0;
-    padding: 0;
+  background-color: #1e1e1e;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
 }
 
-h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
-    margin: 0;
-    padding: 0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+blockquote {
+  margin: 0;
+  padding: 0;
 }
 
 .content-section {
-    width: 360px;
-    margin: auto;
-    box-sizing: border-box;
-    padding-inline: 20px;
+  width: 360px;
+  margin: auto;
+  box-sizing: border-box;
+  padding-inline: 20px;
 }
 
 .content-section_theme_dark {
-    background-color: #131313;
+  background-color: #131313;
 }
 
 .content-section_theme_bright {
-    background-color: #fee42a;
+  background-color: #fee42a;
 }
 
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: start;
-    padding: 24px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  padding: 24px 20px;
 }
 
 .nav {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-    font-size: 16px;
-    line-height: 19px;
-    color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  font-size: 16px;
+  line-height: 19px;
+  color: #f5f5f5;
 }
 
 .header__logo {
-    width: 78px;
+  width: 78px;
 }
 
 .header__menu-item_active {
-    color: #f5f5f5;
-    text-decoration: none;
+  color: #f5f5f5;
+  text-decoration: none;
 }
 
 .header__menu-item {
-    color: #f5f5f5;
+  color: #f5f5f5;
 }
 
 .main {
-    flex-grow: 1;
+  flex-grow: 1;
 }
 
 .cover__title {
-    font-family: 'EB Garamond', serif;
-    font-size: 72px;
-    line-height: 72px;
-    font-weight: 400;
-    color: white;
+  font-family: "EB Garamond", serif;
+  font-size: 72px;
+  line-height: 72px;
+  font-weight: 400;
+  color: white;
 }
 
 .accent-span {
-    display: flex;
+  display: flex;
 }
 
 .text-center {
-    justify-content: center;
+  justify-content: center;
 }
 
 .text-right {
-    justify-content: end;
+  justify-content: end;
 }
 .cover {
-    padding: 8px 20px 16px;
-    background-image: url(/images/cover.svg);
-    background-size: 340px 221px;
-    background-repeat: no-repeat;
-    background-position: right bottom;
+  padding: 8px 20px 16px;
+  background-image: url(/images/cover.svg);
+  background-size: 340px 221px;
+  background-repeat: no-repeat;
+  background-position: right bottom;
 }
 
 .intro {
-    padding: 30px 20px 38px;
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-
+  padding: 30px 20px 38px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 }
 
 .intro__heading {
-    display:flex;
+  display: flex;
 }
 
 .intro__title {
-    font-size: 16px;
-    line-height: 120%;
-    font-weight: 400;
-    color:#ccc;
+  font-size: 16px;
+  line-height: 120%;
+  font-weight: 400;
+  color: #ccc;
 }
 
 .intro__date {
-    font-size: 16px;
-    line-height: 120%;
-    color:#ccc;
+  font-size: 16px;
+  line-height: 120%;
+  color: #ccc;
 }
 
 .intro__main-text {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 22px;
-    color: #f5f5f5;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #f5f5f5;
 }
 
 .reasons {
-    padding: 40px 20px;
-    display: flex;
-    flex-direction: column;
-    gap: 32px;
-    color: #131313;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  color: #131313;
 }
 
 .content-section__subtitle {
-    font-family: 'EB Garamond', serif;
-    font-size: 28px;
-    font-weight: 500;
-    line-height: 115%;
+  font-family: "EB Garamond", serif;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 115%;
 }
 
 .content-section__introduction {
-    font-size: 20px;
-    line-height: 135%;
-} 
+  font-size: 20px;
+  line-height: 135%;
+}
 
 .content-section__list {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-    padding-left: 16px;
-    line-height: 22px;
-    color: #131313;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-left: 16px;
+  line-height: 22px;
+  color: #131313;
 }
 
 .content-section__list-item {
-    font-size: 16px;
-    line-height: 135%;
+  font-size: 16px;
+  line-height: 135%;
 }
 
 .content-section__list-accent {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .how-to {
-    padding: 40px 20px 60px;
-    color: #f5f5f5;
-    display: flex;
-    flex-direction: column;
-    gap: 32px;
+  padding: 40px 20px 60px;
+  color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
 }
 
 .cards-list {
-    display: flex;
-    flex-direction: column;
-    gap: 32px;
-    list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  list-style-type: none;
 }
 
 .card {
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    border-radius: 30px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  border-radius: 30px;
 }
 
 .card_theme_dark {
-    background-color: #343434;
-    color: #f5f5f5
+  background-color: #343434;
+  color: #f5f5f5;
 }
 
 .card_theme_bright {
-    background-color: #fee42a;
-    color: #131313
+  background-color: #fee42a;
+  color: #131313;
 }
 
 .card__author {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
 .card__author-photo {
-    width: 100px;
+  width: 100px;
 }
 
 .card__author-name {
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 135%;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 135%;
 }
 
 .card__content {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
 .card__title {
-    font-family: 'EB Garamond';
-    font-size: 22px;
-    font-weight: 500;
-    line-height: 135%;
+  font-family: "EB Garamond";
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 135%;
 }
 
 .card__text {
-    line-height: 135%;
+  line-height: 135%;
 }
 
 .footer {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    border-top: 1px solid #fee42a;
-    color: #f5f5f5;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-top: 1px solid #fee42a;
+  color: #f5f5f5;
 }
 
 .footer-copy {
-    text-transform: uppercase;
-    font-size: 16px;
-    line-height: 135%;
-
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 135%;
 }
 
 .footer-links {
-    display: flex;
-    gap: 16px;
-    list-style-type: none;
-    text-decoration: none;
-    font-size: 14px;
-    line-height: 125%;
-    color: #f5f5f5;
+  display: flex;
+  gap: 16px;
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 125%;
+  color: #f5f5f5;
 }
 
 .footer__menu-item {
-    color: #f5f5f5;
-    text-decoration: none;
+  color: #f5f5f5;
+  text-decoration: none;
 }
