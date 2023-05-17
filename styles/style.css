@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -48,7 +53,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
     color: #f5f5f5;
 }
 
-.header__logo{
+.header__logo {
     width: 78px;
 }
 
@@ -100,7 +105,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 
 }
 
-.intro__heading{
+.intro__heading {
     display:flex;
 }
 
@@ -117,7 +122,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
     color:#ccc;
 }
 
-.intro__main-text{
+.intro__main-text {
     font-size: 16px;
     font-weight: 400;
     line-height: 22px;
@@ -211,7 +216,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
     line-height: 135%;
 }
 
-.card__content{
+.card__content {
     display: flex;
     flex-direction: column;
     gap: 8px;
