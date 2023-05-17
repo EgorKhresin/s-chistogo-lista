@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 html {
@@ -198,7 +199,7 @@ blockquote {
   padding: 20px;
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 10px;
   border-radius: 30px;
 }
 
@@ -220,6 +221,7 @@ blockquote {
 
 .card__author-photo {
   width: 100px;
+  height: 100px;
 }
 
 .card__author-name {
