@@ -4,7 +4,7 @@ html {
 
 body {
   background-color: #1e1e1e;
-  font-family: "Inter", sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   font-size: 16px;
   font-weight: 400;
   display: flex;
@@ -78,7 +78,7 @@ blockquote {
 }
 
 .cover__title {
-  font-family: "EB Garamond", serif;
+  font-family: "EB Garamond", "Times New Roman", serif;
   font-size: 72px;
   line-height: 100%;
   font-weight: 400;
@@ -144,7 +144,7 @@ blockquote {
 }
 
 .content-section__subtitle {
-  font-family: "EB Garamond", serif;
+  font-family: "EB Garamond", "Times New Roman", serif;
   font-size: 28px;
   font-weight: 500;
   line-height: 115%;
@@ -230,7 +230,7 @@ blockquote {
 }
 
 .card__title {
-  font-family: "EB Garamond";
+  font-family: "EB Garamond", "Times New Roman", serif;
   font-size: 22px;
   font-weight: 500;
   line-height: 135%;
@@ -241,11 +241,14 @@ blockquote {
 }
 
 .footer {
-  display: flex;
-  justify-content: space-between;
   padding: 20px;
   border-top: 1px solid #fee42a;
   color: #f5f5f5;
+}
+
+.nav-footer {
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer-copy {
